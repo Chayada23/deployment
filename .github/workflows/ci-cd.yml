@@ -30,7 +30,7 @@ jobs:
 
       - name: Download dependencies
         working-directory: api
-        run: go mod download
+        run: go mod tidy
 
       - name: Run tests
         working-directory: api
